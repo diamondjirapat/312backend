@@ -1,0 +1,41 @@
+:root {
+  --color-bg-primary: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-text-primary: #1a2e35;
+  --color-text-secondary: #4a5568;
+  --color-accent: #2c9c8e;
+  --color-accent-dark: #1e3a40;
+  --color-button: #1e3a40;
+  --color-button-text: #ffffff;
+  --color-level-beginner: #fef3c7;
+  --color-level-text: #78350f;
+  --color-success-bg: #dcfce7;
+  --color-success-text: #14532d;
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

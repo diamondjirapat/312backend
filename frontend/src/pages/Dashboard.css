@@ -1,0 +1,89 @@
+.dashboard-container {
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.dashboard-title {
+    font-family: serif;
+    font-size: 2rem;
+    color: var(--color-accent-dark);
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    color: var(--color-text-primary);
+    margin-bottom: 1rem;
+}
+
+.missions-section {
+    margin-bottom: 3rem;
+}
+
+.mission-card {
+    background: #f1f5f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: var(--color-text-primary);
+}
+
+.stats-card,
+.chart-card {
+    width: 100%;
+    background: var(--color-bg-card);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stat-icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-family: serif;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.chart-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
