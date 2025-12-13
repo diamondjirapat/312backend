@@ -209,4 +209,4 @@ __marimo__/
 /.venv1
 /.venv
 /.idea
-
+/api/stats.json
